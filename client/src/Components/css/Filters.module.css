@@ -1,0 +1,39 @@
+.containerfilters{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    height: 40px;
+ 
+}
+
+.order{
+        width: 100px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: 0 0 0 1px black; 
+        margin: 5px;
+    }
+
+    .order:hover{
+        cursor: pointer;
+    }
+
+
+.icon{
+    font-size: 30px;
+}
+
+.selects{
+    width: 200px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: 0 0 0 1px black; 
+        margin: 5px;
+}
+
+
+

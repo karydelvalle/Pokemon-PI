@@ -1,0 +1,82 @@
+.container{
+    perspective: 700;
+    border-radius: 10px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: white;
+    
+
+}
+
+.cardBox{
+    width: 400px;
+    height: 400px;
+    transition: all 0.8s ease;
+    transform-style: preserve-3d;
+    cursor:pointer ;
+    border-radius: 10px;
+    border: solid gray
+
+}
+
+.cardBox:hover {
+    transform: rotateY(180deg);
+}
+
+.back{
+    transform: rotateY(180deg);
+    background-image:url('../../assets/pokemonball.png');
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.logopokemon{
+    width: 300px;
+    height: 200px;
+    background-image: url('../../assets/Types.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin:auto;
+}
+
+.front {
+    background: white;
+    opacity: 0.8;
+    background-size: 100% 100%;
+}
+
+.imgfront{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px; 
+    
+    
+}
+
+.front, .back {
+    position: absolute;
+    width: 400px;
+    height: 400px; 
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.namefront{
+    margin-top: -10px;
+    color: #ffcb05;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 45px;
+    letter-spacing: 3px;
+    backface-visibility: hidden;
+    -webkit-text-stroke: 4px #3371B5;
+    text-shadow: 0 0 7px #3371B5;
+}
+
+.titleattack{
+    margin-top: -15px;
+}
+
+.linkgo{
+    text-decoration: inherit;
+    color: inherit
+
+}

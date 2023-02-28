@@ -1,0 +1,100 @@
+.container_pagin{
+    background: black;
+   
+}
+
+
+
+.btnPagination{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 40px;
+    border-color: black solid;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.btnPagination:hover {
+    background-color: #ffcb05;
+    border-radius: 40px;
+    border: 4px solid #3371B5 ;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pagination{
+    
+    width: 30%;
+    height: 60px;
+    background: black;
+    display: flex;
+    margin-left: 600px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.back{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: scenter;
+    background-color: white;
+    border-radius: 40px;
+    border-color: inherit;
+    cursor: pointer;
+    font-size: 14px;
+    border-color: black solid;
+    
+}
+
+.back:hover {
+    background-color: #ffcb05;
+    border-radius: 40px;
+    border: 4px solid #3371B5 ;
+    color: white;
+    cursor: pointer;
+   
+   
+
+}
+
+.next{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 40px;
+    border-color: inherit;
+    cursor: pointer;
+    font-size: 14px;
+    border-color: black solid;
+
+}
+
+.next:hover {
+
+    background-color: #ffcb05;
+    border-radius: 40px;
+    border: 4px solid #3371B5 ;
+    color: white;
+    cursor: pointer;
+   
+    
+}
+
+.der{
+    margin: auto;
+    font-size: 30px;
+   
+}
+
+.izq{
+    margin: auto;
+    font-size: 30px;
+    
+}

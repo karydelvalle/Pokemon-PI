@@ -1,0 +1,91 @@
+
+.background{
+
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    background-image: url('../../assets/Landing5.png');
+    background-size: 100% 100%;
+
+  
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+
+
+.ball{
+    width: 150px;
+    height: 150px;
+    background-image: url('../../assets/pokemonball.png');
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: -120px;
+    
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .ball {
+      animation: ball infinite 2s ;
+    }
+  }
+@keyframes ball {
+    from {
+        transform: rotate(0deg)
+  
+      }
+
+    from {
+      transform: rotate(360deg)
+
+    }
+   
+  }
+
+
+.start{
+    width: 800px;
+    height: 400px;
+    background-image: url('../../assets/Start.png');
+    background-size: 100% 100%;
+    margin-top: -150px;
+    margin-left:50px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .start:hover {
+      animation: start 1 2s;
+    }
+  }
+
+  @keyframes start {
+    from {
+      transform:rotateY(0deg)
+
+    }
+
+    to {
+        transform: rotateY(360deg);
+      }
+   
+  }
+
+
+
+
+
+
